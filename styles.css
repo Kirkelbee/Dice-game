@@ -20,7 +20,6 @@ h1 {
     width: 100%;
     gap: 150px;
     justify-content: center;
-    
 }
 
 .player {
@@ -52,7 +51,7 @@ h3 {
 button {
     color: white;
     background-color: rgb(78, 156, 84);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 footer {
@@ -83,9 +82,6 @@ footer {
     .dice {
         width: 150px;
     }
-    .roll-dice {
-        font-size: 3rem;
-    }
     button {
         font-size: 3rem;
     }
@@ -107,13 +103,10 @@ footer {
         font-size: 1.5rem;
         margin: 20px 0px;
     }    
-    .roll-dice {
-        font-size: 1.5rem;
-    }
     .dice {
         width: 80px;
     }
     button {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 }
