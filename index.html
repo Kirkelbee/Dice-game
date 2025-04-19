@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel = "stylesheet" href = "../17.1 DiceeMark/styles.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+        rel="stylesheet">
+        
+</head>
+
+<body>
+    
+    <div class = "container">
+        
+        <div class = "result">
+            <h1>Who washes the dishes?</h1>
+        </div>
+
+        <div class = "scoreboard">
+            <div class = "player">
+                <h3>Player 1</h3>
+                <img class = "dice" id = "diceImg1" src="./images/red6.jpg" alt="dice face" width="150">
+            </div>
+            <div class = "player">
+                <h3>Player 2</h3>
+                <img class = "dice" id = "diceImg2" src="./images/blue6.jpg" alt="dice face" width="150">
+            </div>            
+        </div>
+        
+        <div class = "roll-dice"><button onclick="playDice()" type="button">Roll the dice!</button>
+
+
+        </div>
+
+    </div>
+
+    <footer>Kirkelbee is learning!</footer>
+    
+    <script src="./dicee.js" charset="UTF-8"></script>
+</body>
+</html>
