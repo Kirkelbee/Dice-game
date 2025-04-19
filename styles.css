@@ -32,7 +32,7 @@ h1 {
 }
 
 h3 {
-    font-family:indie-flower, cursive;
+    font-family:indie-flower, sans-serif;
     font-size: 5rem;
     margin: 25px 0px;
     
@@ -62,11 +62,7 @@ footer {
 
 
 @media (min-width:768px) and (max-width:1200px) {
-    body {
-        background-color: orange;
-    }
     h1 {
-
         font-size: 5rem;
         margin: 25px 0px;
     }
@@ -100,9 +96,6 @@ footer {
 }
 
 @media (max-width:768px){
-    body {
-        background-color: yellow;
-    }
     h1 {
         font-size: 2rem;
         margin: 15px 0px;
