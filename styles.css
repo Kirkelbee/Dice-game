@@ -10,8 +10,8 @@ body {
 h1 {
     text-align: center;
     width: 100%;
-    font-size: 7rem;
-    margin: 50px 0px;
+    font-size: 6rem;
+    margin: 40px 0px;
     font-family:lobster, cursive;
 }
 
@@ -33,33 +33,31 @@ h1 {
 
 h3 {
     font-family:indie-flower, cursive;
-    font-size: 6rem;
-    margin: 50px 0px;
+    font-size: 5rem;
+    margin: 25px 0px;
     
 }
 
 .dice {
-    width: 250px;
+    width: 200px;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .roll-dice {
     display: flex;
-    font-size: 5rem;
     justify-content: center;
 }
-
 
 button {
     color: white;
     background-color: rgb(78, 156, 84);
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 footer {
     margin: 30px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 
